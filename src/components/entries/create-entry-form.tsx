@@ -5,13 +5,17 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
 import { createEntry } from "@/lib/actions/entries";
+import { ActionState } from "@/lib/utils";
 import { useActionState, useEffect } from "react";
 import { toast } from "sonner";
 
 export const CreateEntryForm = () => {
-  const [state, formAction, pending] = useActionState(createEntry, {
-    errors: "",
-  });
+  const [state, formAction, pending] = useActionState<ActionState, FormData>(
+    createEntry,
+    {
+      errors: "",
+    }
+  );
 
   // Show success toast when entry is created
   useEffect(() => {
