@@ -9,3 +9,14 @@ export const meta = {
   author: "MicrodotMatrix",
   url: "https://github.com/microdotmatrix/nextjs-ai",
 };
+
+interface NavItem {
+  name: string;
+  href: string;
+}
+
+export const navItems: NavItem[] = [
+  { name: "Home", href: "/" },
+  { name: "Dashboard", href: "/dashboard" },
+  { name: "Contact", href: "/contact" },
+];

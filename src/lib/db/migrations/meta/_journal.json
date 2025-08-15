@@ -8,6 +8,34 @@
       "when": 1754150640928,
       "tag": "0000_greedy_bloodaxe",
       "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "7",
+      "when": 1755186208209,
+      "tag": "0001_old_iceman",
+      "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "7",
+      "when": 1755214693880,
+      "tag": "0002_heavy_zodiak",
+      "breakpoints": true
+    },
+    {
+      "idx": 3,
+      "version": "7",
+      "when": 1755219268499,
+      "tag": "0003_clumsy_mojo",
+      "breakpoints": true
+    },
+    {
+      "idx": 4,
+      "version": "7",
+      "when": 1755219482053,
+      "tag": "0004_solid_crusher_hogan",
+      "breakpoints": true
     }
   ]
 }
